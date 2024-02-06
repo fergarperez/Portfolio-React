@@ -1,0 +1,20 @@
+.aboutMe {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.aboutMe p {
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 70ch;
+}

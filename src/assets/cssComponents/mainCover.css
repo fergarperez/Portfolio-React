@@ -1,0 +1,52 @@
+.mainCover {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.mainCover #leftCover {
+    max-width: 300px;
+}
+
+.mainCover section .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mainCover section .title > span {
+    color: orange;
+    text-decoration: underline;
+}
+
+.mainCover section .subtitle {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.mainCover #rightCover {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mainCover #rightCover ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainCover #rightCover ul a {
+    color: orange;
+}
+
+.mainCover #rightCover ul a:hover {
+    transition: 0.35s ease;
+    color: rgb(244, 213, 150);
+}

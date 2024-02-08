@@ -16,6 +16,7 @@
 .navLinks ul a:hover {
     box-shadow: 1px 0px 15px 1px #fff;
     transition: 0.25s ease;
+    padding: 6px 25px;
 }
 
 .linksNav {

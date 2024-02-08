@@ -8,7 +8,7 @@ import { Mail } from '../assets/icons/Mail'
 export function MainCover() {
     return (
         <article className="mainCover">
-            <section id="leftCover">
+            <section id="leftCover" >
                 <img src={AnimatedPhoto} alt="Animated photo of myself" />
             </section>
             <section id="rightCover">

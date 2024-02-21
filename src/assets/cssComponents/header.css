@@ -1,13 +1,11 @@
 .navbar {
-    margin-top: 20px;
     display: flex;
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1250px;
     padding-bottom: 20px;
     border-bottom: 2px lightgray solid;
-    position: sticky;
 }
 
 .navLinks ul{
@@ -27,11 +25,12 @@
     background-color: orange;
     border-radius: 5px;
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.824);
 }
 
 .linksNav li {
     list-style: none;
+    font-weight: 700;
 }
 
 .photoCover {

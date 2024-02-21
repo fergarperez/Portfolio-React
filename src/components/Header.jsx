@@ -2,11 +2,7 @@ import '../assets/cssComponents/header.css'
 
 export function Header() {
     return (
-        <header className="navbar">
-        
-            {/* <img src="/src/assets/images/animatedPhoto.png"
-                alt="Animated photo of myself" 
-                className="photoCover" /> */}
+        <header className="navbar backdrop-blur-md bg-dark-200/30 dark:bg-dark-900/30 sticky w-full z-20 top-0 pt-4">
 
             <p className='logo'>FerGarPer</p> 
         

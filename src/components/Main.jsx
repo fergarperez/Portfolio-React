@@ -1,4 +1,4 @@
-export function Main({children}) {
+export function Main ({ children }) {
     return (
         <main>
             {children}

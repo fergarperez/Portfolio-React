@@ -10,7 +10,7 @@ export function Header() {
 
             <p className='logo'>FerGarPer</p> 
         
-            <nav class="navLinks">
+            <nav className="navLinks">
                 <ul>
                     <a href="#aboutMe" className="linksNav"><li>About me</li></a>
                     <a href="#projects" className="linksNav"><li>Projects</li></a>

@@ -14,4 +14,11 @@ body {
   background: radial-gradient(ellipse at 50% -20%, rgba(10, 10, 20, 0.95), rgba(0, 0, 0, 0.95));
   scroll-behavior: smooth;
   height: 100%;
+  box-sizing: border-box;
+}
+
+.headers {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }

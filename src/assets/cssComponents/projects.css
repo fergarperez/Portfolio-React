@@ -1,0 +1,78 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+	margin-top: 200px;
+	place-items: center;
+}
+
+.projects .allProjects {
+	border-radius: 16px;
+	padding: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.projects .allProjects .projectsSection {
+	margin: 10px;
+	flex-direction: column;
+	display: flex;
+	padding: 20px;
+	max-width: 400px;
+	border: 1px solid lightblue;
+	border-radius: 20px;
+	gap: 20px;
+	justify-content: space-between;
+}
+
+.projects .allProjects .projectsSection h3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: lightblue;
+	text-align: start;
+}
+
+.projects .allProjects .projectsSection img {
+	width: 100%;
+	height: 200px;
+	border-radius: 20px;
+}
+
+.projects .allProjects .projectsSection p {
+	width: 50ch;
+	margin-bottom: 20px;
+	max-width: 300px;
+}
+
+.projects .allProjects .projectsSection div {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.projects .allProjects .projectsSection div a {
+	padding: 6px 10px;
+  margin: 0px 10px;   
+  border: 3px solid lightblue;
+  border-radius: 12px;
+	display: flex;
+	align-items: center;
+}
+
+.projects .allProjects .projectsSection div a:hover {
+  transition: 0.25s ease;
+	border: 3px solid rgba(173, 216, 230, 0.58);
+}
+
+.projects .allProjects .projectsSection div a svg {
+	display: inline;
+	width: 30px;
+	height: 20px;
+}
+
+.projects .allProjects .projectsSection ul {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: end;
+	gap: 5px;
+}

@@ -4,9 +4,10 @@
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
+    max-width: 1000px;
     padding-bottom: 20px;
     border-bottom: 2px lightgray solid;
+    position: sticky;
 }
 
 .navLinks ul{

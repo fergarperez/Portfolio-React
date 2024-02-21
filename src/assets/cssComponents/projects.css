@@ -39,6 +39,12 @@
 	border-radius: 20px;
 }
 
+.projects .allProjects .projectsSection:hover {
+	transition: ease 0.5s;
+	cursor: pointer;
+	scale: 1.04;
+}
+
 .projects .allProjects .projectsSection p {
 	width: 50ch;
 	margin-bottom: 20px;

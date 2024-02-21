@@ -50,4 +50,5 @@
 .mainCover #rightCover ul a:hover {
     transition: 0.35s ease;
     color: rgb(244, 213, 150);
+    scale: 1.2;
 }

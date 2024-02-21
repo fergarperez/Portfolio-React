@@ -91,7 +91,6 @@ export function Projects() {
 			<h2 className='headers'> Projects {"</>"}</h2>
 
 			<section className="allProjects">
-
 				{
 					project.map((item) => {
 						return <Project
@@ -105,7 +104,6 @@ export function Projects() {
 							icons={item.icons} />
 					})
 				}
-
 			</section>
 		</article>
 	)

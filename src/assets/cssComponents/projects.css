@@ -18,7 +18,7 @@
 	display: flex;
 	padding: 20px;
 	max-width: 375px;
-	border: 1px solid #93C5FD;
+	border: 1px solid #0EA5E9;
 	border-radius: 20px;
 	gap: 20px;
 	justify-content: space-between;
@@ -28,14 +28,14 @@
 .projects .allProjects .projectsSection h3 {
 	font-size: 30px;
 	font-weight: 700;
-	color: #93C5FD;
+	color: #0EA5E9;
 	
 	text-align: start;
 }
 
 .projects .allProjects .projectsSection img {
 	width: 100%;
-	height: 200px;
+	max-height: 200px;
 	border-radius: 20px;
 }
 
@@ -54,13 +54,13 @@
 .projects .allProjects .projectsSection div {
 	display: flex;
 	justify-content: space-between;
-	align-items: end;
+	align-items: flex-end;
 }
 
 .projects .allProjects .projectsSection div a {
 	padding: 6px 10px;
   margin: 0px 10px;   
-  border: 3px solid #93C5FD;
+  border: 3px solid #0EA5E9;
   border-radius: 12px;
 	display: flex;
 	align-items: center;
@@ -68,7 +68,7 @@
 
 .projects .allProjects .projectsSection div a:hover {
   transition: 0.25s ease;
-	border: 3px solid rgba(173, 216, 230, 0.58);
+	border: 3px solid #0ea4e98b;
 }
 
 .projects .allProjects .projectsSection div a svg {

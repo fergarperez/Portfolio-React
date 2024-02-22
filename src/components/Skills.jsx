@@ -12,45 +12,26 @@ import { AWS } from '../assets/icons/AWS'
 import { NextJS } from '../assets/icons/NextJS'
 
 export function Skills() {
+
+	const icons = [<JavaScript />, <HTML />, <CSS />, <Java />, <PHP />, <AWS />,
+					<Azure />, <React />, <NextJS />, <MySQL />, <Github />]
+
 	return (
 		<article id="skills" className='skills'>
 
 			<h2 className='headers'> Skills </h2>
 
 			<ul>
-				<li>
-					<JavaScript />
-				</li>
-				<li>
-					<HTML />
-				</li>
-				<li>
-					<CSS />
-				</li>
-				<li>
-					<Java />
-				</li>
-				<li>
-					<PHP />
-				</li>
-				<li>
-					<AWS />
-				</li>
-				<li>
-					<Azure />
-				</li>
-				<li>
-					<React />
-				</li>
-				<li>
-					<NextJS />
-				</li>
-				<li>
-					<MySQL />
-				</li>
-				<li>
-					<Github />
-				</li>
+				{
+					icons.map( (icon, index) => {
+						return (
+							<li
+							key={index}>
+								{icon}
+							</li>
+						)
+					})
+				}
 			</ul>
 
 		</article>

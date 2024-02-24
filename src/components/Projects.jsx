@@ -9,6 +9,7 @@ import { Java } from '../assets/icons/Java'
 import Timmer from '../assets/images/Timmer.png'
 import TicTacToe from '../assets/images/TicTacToe.png'
 import TodoList from '../assets/images/TodoList.png'
+import Hangman from '../assets/images/Hangman.png'
 
 function Project ({ header, description, image, url, demoUrl, icons }) {
 
@@ -17,7 +18,8 @@ function Project ({ header, description, image, url, demoUrl, icons }) {
 
 			<img
 				src={image}
-				alt={description} />
+				alt={description}
+				className=''/>
 
 			<h3> {header} </h3>
 
@@ -50,7 +52,7 @@ export function Projects() {
 			name: "Hangman",
 			description: "This is a project which I developed in Java, where I had " +
 				"to use some features like GUI, DB, Sockets and Threads",
-			image: "https://via.placeholder.com/400",
+			image: Hangman,
 			url: "https://github.com/fergarperez/Hangman",
 			demoUrl: "",
 			icons: [<Java />],

@@ -10,5 +10,6 @@
 .aboutMe p {
     font-size: 17px;
     font-weight: 400;
-    max-width: 70ch;
+    max-width: 60ch;
+    margin: 10px;
 }

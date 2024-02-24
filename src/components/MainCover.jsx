@@ -15,22 +15,30 @@ export function MainCover() {
                 <h1 className="title">Hi, I am a <span>Web Developer</span></h1>
                 <span className="subtitle">Passionated about the software evironment</span>
                 <ul>
-                    <a href="https://drive.google.com/file/d/1yos083TrScueGdE-Nlm1Li__da5sZhYk/view?usp=sharing" className="iconsCover">
+                    <a href="https://drive.google.com/file/d/1yos083TrScueGdE-Nlm1Li__da5sZhYk/view?usp=sharing" 
+                    className="iconsCover"
+                    target='blank'>
                         <li>
                             <CV />
                         </li>
                     </a>
-                    <a href="https://github.com/fergarperez" className="iconsCover">
+                    <a href="https://github.com/fergarperez" 
+                    className="iconsCover"
+                    target='blank'>
                         <li>
                             <Github />
                         </li>
                     </a>
-                    <a href="https://www.linkedin.com/in/fernando-garfella/" className="iconsCover">
+                    <a href="https://www.linkedin.com/in/fernando-garfella/" 
+                    className="iconsCover"
+                    target='blank'>
                         <li className="iconsCover">
                             <Linkedin />
                         </li>
                     </a>
-                    <a href="mailto:fgarfella1@gmail.com" className="iconsCover">
+                    <a href="mailto:fgarfella1@gmail.com" 
+                    className="iconsCover"
+                    target='blank'>
                         <li>
                             <Mail />
                         </li>

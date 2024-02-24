@@ -9,11 +9,17 @@ export function AboutMe() {
                 Devoted to keep learning and developing in this maravelous industry.
             </p>
             <p>
-                My best hability is to learn things in a very short period of
-                time.
+                I have always been keen on this world of programming, I have wide
+                knowledge of JavaScript, CSS, HTML and Java and I would like to
+                continue learning about software development. I have also an
+                incredible hability to learn things in a short period of time.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab minima inventore perferendis ut, architecto quam corporis, iste ad, fuga deleniti similique eveniet consectetur eligendi sunt molestiae sed. Dolor, quibusdam?
+                In this journey studying in my 2º Year of Higher Education in Web
+                Development, {"I've"} known my passion about web development and
+                I have the devotion to keep on doing it. Very excited about the
+                future of this incredible industry and to keep developing as in
+                a profesional environment as also personally.
             </p>
         </article>
     )
